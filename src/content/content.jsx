@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Sebastião Camacho, nº 71,</p>
+      <p>Jardim Santa Adélia,</p>
+      <p>São Paulo - SP, </p>
+      <p>CEP: 03973-040</p>
     </div>
   ),
   enderecoSecundario: (
@@ -404,31 +405,31 @@ const content = {
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          Minha história na advocacia está sendo construída com uma visão muito
+          clara: criar um escritório acessível, sem formalidades excessivas,
+          onde o cliente se sinta à vontade para expor sua situação com
+          confiança e clareza.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          Minha história na advocacia está sendo construída com uma visão muito
+          clara: criar um escritório acessível, sem formalidades excessivas,
+          onde o cliente se sinta à vontade para expor sua situação com
+          confiança e clareza.
           <br />
           <br />
           Acredito que, ao acolher verdadeiramente quem nos procura, conseguimos
-          compreender melhor o problema e buscar soluções mais eficazes. Tenho o
-          compromisso de atuar com empatia, transparência e total dedicação na
-          resolução dos conflitos que me são confiados.
+          compreender melhor o problema e buscar soluções mais eficazes.
+          <br />
+          <br />
+          Tenho o compromisso de atuar com empatia, transparência e total
+          dedicação na resolução dos conflitos que me são confiados.
           <br />
           <br />
           Mais do que advogar, quero caminhar ao lado do cliente, mostrando que
           ele não está sozinho.
-          <br />
-          <br />
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
