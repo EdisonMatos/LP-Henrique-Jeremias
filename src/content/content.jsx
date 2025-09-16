@@ -228,8 +228,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Cível e Consumidor",
-        subtitle: "Soluções em conflitos civis e defesa do consumidor.",
+        title: "Direito Cível",
+        subtitle:
+          "Atuação em demandas contratuais, indenizatórias e obrigações em geral.",
         description: (
           <div>
             A_Definir
@@ -264,8 +265,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Acordos, divórcios, pensões e inventários legais.",
+        title: "Direito do Consumidor",
+        subtitle:
+          "Proteção em casos de fraudes, contratos abusivos e cobranças indevidas.",
         description: (
           <div>
             A_Definir <br />
@@ -274,6 +276,40 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-check-icon lucide-user-check"
+          >
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "Direito de Família e Sucessões",
+        subtitle: "Acordos, divórcios, pensões e inventários legais.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            A_Definir
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -296,7 +332,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card4: {
+      card5: {
         img: featuresImg4,
         title: "Direito Empresarial e Trabalhista",
         subtitle: "Suporte jurídico para empresas e relações de trabalho.",
@@ -304,8 +340,8 @@ const content = {
           <div>
             A_Definir
             <br />
-            A_Definir
             <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -331,10 +367,11 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card5: {
+      card6: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Previdenciário",
+        subtitle:
+          "Aposentadorias, benefícios por incapacidade e revisões previdenciárias.",
         description: (
           <div>
             A_Definir
@@ -355,11 +392,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
